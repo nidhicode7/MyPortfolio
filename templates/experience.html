@@ -1,0 +1,84 @@
+{% extends "base.html" %}
+
+{% block title %}Experience - My Portfolio{% endblock %}
+
+{% block content %}
+<div class="experience-header text-center mb-5">
+    <h1 class="display-4">Experience & Education</h1>
+    <p class="lead">My professional journey and academic background</p>
+</div>
+
+<div class="row">
+    <!-- Work Experience -->
+    <div class="col-md-6">
+        <h2 class="mb-4">Work Experience</h2>
+        
+        <!-- Bluestock Fintech -->
+        <div class="card mb-4 experience-card">
+            <div class="card-body">
+                <h5 class="card-title">Software Development Intern</h5>
+                <h6 class="card-subtitle mb-2 text-muted">Bluestock Fintech</h6>
+                <p class="card-text text-muted">April 2025 – May 2025</p>
+                <ul class="card-text">
+                    <li>Developed a fintech assistant to provide real-time financial insights and automate user queries.</li>
+                    <li>Built secure, scalable backend systems and integrated live stock market data using REST APIs.</li>
+                    <li>Designed intuitive UI for portfolio tracking and stock analysis using ReactJS and Firebase.</li>
+                </ul>
+                <div class="experience-links">
+                    <a href="#" class="btn btn-outline-primary btn-sm" target="_blank">
+                    </a>
+                    <a href="#" class="btn btn-outline-info btn-sm" target="_blank">
+                     
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- BrainOvision Solutions -->
+        <div class="card mb-4 experience-card">
+            <div class="card-body">
+                <h5 class="card-title">Data Science Intern</h5>
+                <h6 class="card-subtitle mb-2 text-muted">BrainOvision Solutions Pvt.Ltd</h6>
+                <p class="card-text text-muted">Feb 2024 – April 2024</p>
+                <ul class="card-text">
+                    <li>Analyzed 50,000+ datasets and collaborated with cross-functional teams to optimize ML models with 95 percent accuracy.</li>
+                    <li>Developed and optimized backend services in Python while integrating REST APIs.</li>
+                </ul>
+                <div class="experience-links">
+                    <a href="#" class="btn btn-outline-primary btn-sm" target="_blank">
+                    </a>
+                    <a href="#" class="btn btn-outline-info btn-sm" target="_blank">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Education -->
+    <div class="col-md-6">
+        <h2 class="mb-4">Education</h2>
+        
+        <!-- Current Education -->
+        <div class="card mb-4 experience-card">
+            <div class="card-body">
+                <h5 class="card-title">Bachelor's Degree</h5>
+                <h6 class="card-subtitle mb-2 text-muted">2022 - 2026</h6>
+                <p class="card-text">CGPA: 8.37</p>
+            </div>
+        </div>
+
+        <!-- Previous Education -->
+        <div class="card mb-4 experience-card">
+            <div class="card-body">
+                <h5 class="card-title">Higher Secondary</h5>
+                <h6 class="card-subtitle mb-2 text-muted">2020 - 2022</h6>
+                <p class="card-text">Percentage: 98.9%</p>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block extra_css %}
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+{% endblock %} 

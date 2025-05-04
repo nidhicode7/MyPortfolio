@@ -1,0 +1,38 @@
+{% extends "base.html" %}
+
+{% block title %}Home - My Portfolio{% endblock %}
+
+{% block content %}
+<div class="hero-section text-center py-5">
+    <h1 class="display-4">Welcome to My Portfolio</h1>
+    <p class="lead">I'm a passionate developer creating amazing web experiences</p>
+    <a href="/projects" class="btn btn-primary btn-lg">View My Work</a>
+</div>
+
+<div class="row mt-5">
+    <div class="col-md-4">
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">Web Development</h5>
+                <p class="card-text">Creating responsive and dynamic web applications using modern technologies.</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">UI/UX Design</h5>
+                <p class="card-text">Designing intuitive and beautiful user interfaces for optimal user experience.</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">Backend Development</h5>
+                <p class="card-text">Building robust and scalable backend systems with Python and Flask.</p>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %} 

@@ -1,0 +1,178 @@
+/* Custom styles for the portfolio */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+.hero-section {
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    border-radius: 10px;
+    padding: 4rem 2rem;
+    margin-bottom: 2rem;
+}
+
+.card {
+    transition: transform 0.3s ease;
+    margin-bottom: 1rem;
+    border: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.navbar {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.btn-primary {
+    background-color: #4a6bff;
+    border-color: #4a6bff;
+    padding: 0.8rem 2rem;
+    font-weight: 500;
+}
+
+.btn-primary:hover {
+    background-color: #3a5bef;
+    border-color: #3a5bef;
+}
+
+footer {
+    margin-top: 3rem;
+}
+
+/* Projects Page Styles */
+.project-card {
+    transition: all 0.3s ease;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+.tech-stack .badge {
+    margin-right: 5px;
+    font-weight: 500;
+    padding: 5px 10px;
+}
+
+.project-links {
+    display: flex;
+    gap: 10px;
+}
+
+.project-links .btn {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.projects-header {
+    margin-bottom: 3rem;
+}
+
+/* Experience Page Styles */
+.experience-card {
+    transition: all 0.3s ease;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    margin-bottom: 1.5rem;
+}
+
+.experience-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+.experience-links {
+    display: flex;
+    gap: 10px;
+    margin-top: 1rem;
+}
+
+.experience-links .btn {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.experience-card ul {
+    padding-left: 1.5rem;
+    margin-top: 1rem;
+}
+
+.experience-card li {
+    margin-bottom: 0.5rem;
+}
+
+.experience-header {
+    margin-bottom: 3rem;
+}
+
+/* Achievements Page Styles */
+.achievement-card {
+    transition: all 0.3s ease;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    margin-bottom: 1.5rem;
+    position: relative;
+    overflow: hidden;
+}
+
+.achievement-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+.achievement-badge {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 0.5rem 1rem;
+    background: linear-gradient(135deg, #4a6bff 0%, #3a5bef 100%);
+    color: white;
+    font-weight: 600;
+    border-radius: 0 0.25rem 0 0;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+}
+
+.achievement-card .card-body {
+    padding-top: 2.5rem;
+}
+
+.achievements-header {
+    margin-bottom: 3rem;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .hero-section {
+        padding: 2rem 1rem;
+    }
+    
+    .display-4 {
+        font-size: 2.5rem;
+    }
+
+    .project-card {
+        margin-bottom: 1.5rem;
+    }
+
+    .experience-links {
+        flex-wrap: wrap;
+    }
+
+    .achievement-badge {
+        font-size: 0.7rem;
+        padding: 0.4rem 0.8rem;
+    }
+} 

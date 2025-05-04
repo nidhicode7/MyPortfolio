@@ -1,0 +1,80 @@
+{% extends "base.html" %}
+
+{% block title %}Achievements - My Portfolio{% endblock %}
+
+{% block content %}
+<div class="achievements-header text-center mb-5">
+    <h1 class="display-4">My Achievements</h1>
+    <p class="lead">Highlights of my accomplishments and recognitions</p>
+</div>
+
+<div class="row">
+    <!-- Hackathons & Competitions -->
+    <div class="col-md-6">
+        <h2 class="mb-4">Hackathons & Competitions</h2>
+        
+        <!-- Nokia Hackathon -->
+        <div class="card mb-4 achievement-card">
+            <div class="card-body">
+                <div class="achievement-badge">Semi-Finalist</div>
+                <h5 class="card-title">Nokia Hackathon "Accelerate Her in Tech'25"</h5>
+                <p class="card-text text-muted">Shortlisted out of 1 lakh applicants</p>
+            </div>
+        </div>
+
+        <!-- Virtual Vista Hackathon -->
+        <div class="card mb-4 achievement-card">
+            <div class="card-body">
+                <div class="achievement-badge">Finalist</div>
+                <h5 class="card-title">Virtual Vista Hackathon 1.0 by IEEE-CS</h5>
+                <p class="card-text text-muted">Only finalist from Telangana in the national event</p>
+            </div>
+        </div>
+
+        <!-- Data Science Hackathon -->
+        <div class="card mb-4 achievement-card">
+            <div class="card-body">
+                <div class="achievement-badge">Runner-Up</div>
+                <h5 class="card-title">Data Science Hackathon</h5>
+                <p class="card-text text-muted">Secured 2nd place in the institute's Data Science and ML Hackathon</p>
+            </div>
+        </div>
+
+        <!-- Startup Ideathon -->
+        <div class="card mb-4 achievement-card">
+            <div class="card-body">
+                <div class="achievement-badge">Winner</div>
+                <h5 class="card-title">Innovative Startup Ideathon</h5>
+                <p class="card-text text-muted">Won bounty cash prize for proposing an idea on ML and IoT Integrated Waste Sustainability</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Other Achievements -->
+    <div class="col-md-6">
+        <h2 class="mb-4">Other Achievements</h2>
+        
+        <!-- Mobi Game Expo -->
+        <div class="card mb-4 achievement-card">
+            <div class="card-body">
+                <div class="achievement-badge">Winner</div>
+                <h5 class="card-title">Mobi Game Expo at Jijgnasa</h5>
+                <p class="card-text text-muted">First place for creating "WillHero", noted for its visuals, dynamic gameplay, and captivating music</p>
+            </div>
+        </div>
+
+        <!-- InAmigos Foundation -->
+        <div class="card mb-4 achievement-card">
+            <div class="card-body">
+                <div class="achievement-badge">Position</div>
+                <h5 class="card-title">Graphic Designer at InAmigos Foundation</h5>
+                <p class="card-text text-muted">Contributed to their UI/UX design</p>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block extra_css %}
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+{% endblock %} 
