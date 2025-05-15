@@ -47,7 +47,7 @@ portfolio/
 - Edit the templates in the `templates/` directory to modify the content
 - Update the styles in `static/css/style.css` to change the appearance
 - Add your own images to `static/images/`
-- Modify the routes in `app.py` to add new pages or functionality
+- Modify the routes in `app.py` to add new pages or functionality.
 
 ## License
 
